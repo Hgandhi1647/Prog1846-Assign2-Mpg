@@ -35,3 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
     $("#calculate").addEventListener("click", processEntries);
     $("#miles").focus();
 });
+
+// To clear entries when mpg box is clicked
+  mpg.addEventListener("dblclick", clearEntries);
+
+// Miles Driven text box is cleared when it receives the focus
+// changes done in index file for it
